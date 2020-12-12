@@ -136,7 +136,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:trasa_hidrobaza</Layers>
+				<Layers>GH:tk25_novi</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -146,7 +146,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:trasa_hidrobaza</Layers>
+				<Layers>GH:tk25_novi</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -156,7 +156,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:tk25_novi</Layers>
+				<Layers>GH:trasa_hidrobaza</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -166,7 +166,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:tk25_novi</Layers>
+				<Layers>GH:trasa_hidrobaza</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<CustomLayer>
@@ -198,26 +198,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:trasa_hidrobaza</Name>
-				<Title>trasa_hidrobaza</Title>
-				<Abstract>GH:trasa_hidrobaza ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/dragangg/Mappia_Example/releases/download/Map_Download/trasa_hidrobaza.zip˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="13.797030087659904" miny="44.88850732030317" maxx="13.806207342544765" maxy="44.89363013407822"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="1535878.3638177752" miny="5603986.290029606" maxx="1536899.9711584356" maxy="5604791.243284971"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=trasa_hidrobaza"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:tk25_novi</Name>
 				<Title>tk25_novi</Title>
 				<Abstract>GH:tk25_novi ABSTRACT</Abstract>
@@ -234,6 +214,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=tk25_novi"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:trasa_hidrobaza</Name>
+				<Title>trasa_hidrobaza</Title>
+				<Abstract>GH:trasa_hidrobaza ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸//github.com/dragangg/Mappia_Example/releases/download/Map_Download/trasa_hidrobaza.zip˸notListing˸˸maxZoom˸5</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="13.797030087659904" miny="44.88850732030317" maxx="13.806207342544765" maxy="44.89363013407822"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="1535878.3638177752" miny="5603986.290029606" maxx="1536899.9711584356" maxy="5604791.243284971"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=trasa_hidrobaza"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
