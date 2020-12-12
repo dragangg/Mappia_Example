@@ -225,8 +225,8 @@
 					<Keyword>group˸shp˸˸˸//github.com/dragangg/Mappia_Example/releases/download/Map_Download/trasa_hidrobaza.zip˸notListing˸˸maxZoom˸5</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="13.797030087659904" miny="44.88850732030317" maxx="13.806207342544765" maxy="44.89363013407822"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="1535878.3638177752" miny="5603986.290029606" maxx="1536899.9711584356" maxy="5604791.243284971"></BoundingBox>
+				<LatLonBoundingBox minx="13.797007631081888" miny="44.88850732030317" maxx="13.806207342544768" maxy="44.89363543696177"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="1535875.8639629455" miny="5603986.290029606" maxx="1536899.9711584356" maxy="5604792.076569914"></BoundingBox>
 				<Style>
 					<Name>1</Name>
 					<Title>1</Title>
